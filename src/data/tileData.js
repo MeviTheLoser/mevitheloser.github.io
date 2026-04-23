@@ -426,7 +426,8 @@ const tileData = {
                     "influence": 6,
                     "trait": null,
                     "specialty": null,
-                    "legendary": false
+                    "legendary": true,
+                    "ability": "You may exhaust this card and discard 1 secret objective at the end of your turn to draw 1 secret objective."
                 }
             ]
         },
@@ -1664,6 +1665,359 @@ const tileData = {
             "anomaly": [],
             "planets": [
             ]
+        },
+         "97": {
+            "type": "blue",
+            "planets": [
+                {
+                    "name": "Faunus",
+                    "resources": 1,
+                    "influence": 3,
+                    "trait": "industrial",
+                    "specialty": "biotic",
+                    "legendary": true,
+                    "ability": "You may exhaust this card when you pass to gain control of a non-home, non-legendary planet that contains no units and has no attachments."
+                }
+            ],
+            "anomaly": [],
+            "wormhole": []
+        },
+                 "98": {
+            "type": "blue",
+            "planets": [
+                {
+                    "name": "Garbozia",
+                    "resources": 2,
+                    "influence": 1,
+                    "trait": "hazardous",
+                    "specialty": null,
+                    "legendary": true,
+                    "ability": "You may exhaust this card when you pass place 1 action card from the discard pile faceup on this card; you can purge cards on this card to play them as if they were in your hand."
+                }
+            ],
+            "anomaly": [],
+            "wormhole": []
+        },
+                 "99": {
+            "type": "blue",
+            "planets": [
+                {
+                    "name": "Emelpar",
+                    "resources": 0,
+                    "influence": 2,
+                    "trait": "cultural",
+                    "specialty": null,
+                    "legendary": true,
+                    "ability": "You may exhaust this card at the end of your turn to ready another component that isn't a strategy card."
+                }
+            ],
+            "anomaly": [],
+            "wormhole": []
+        },
+                 "100": {
+            "type": "blue",
+            "planets": [
+                {
+                    "name": "Tempesta",
+                    "resources": 1,
+                    "influence": 1,
+                    "trait": "hazardous",
+                    "specialty": "propulsion",
+                    "legendary": true,
+                    "ability": "You may exhaust this card after you activate a system to apply +1 to the move value of 1 of your ships during this tactical action."
+                }
+            ],
+            "anomaly": [],
+            "wormhole": []
+        },
+                 "101": {
+            "type": "blue",
+            "planets": [
+                {
+                    "name": "Olergodt",
+                    "resources": 2,
+                    "influence": 1,
+                    "trait": "hazardous,cultural",
+                    "specialty": "warfare,cybernetic",
+                    "legendary": false,
+                }
+            ],
+            "anomaly": [],
+            "wormhole": []
+        },
+                         "102": {
+            "type": "blue",
+            "planets": [
+                {
+                    "name": "Andeara",
+                    "resources": 1,
+                    "influence": 1,
+                    "trait": "industrial",
+                    "specialty": "propulsion",
+                    "legendary": false,
+                }
+            ],
+            "anomaly": [],
+            "wormhole": [WORMHOLES.ALPHA]
+        },
+                         "103": {
+            "type": "blue",
+            "planets": [
+                {
+                    "name": "Vira-Pics III",
+                    "resources": 2,
+                    "influence": 3,
+                    "trait": "cultural,hazardous",
+                    "specialty": null,
+                    "legendary": false,
+                }
+            ],
+            "anomaly": [],
+            "wormhole": []
+        },
+                         "104": {
+            "type": "blue",
+            "planets": [
+                {
+                    "name": "Lesab",
+                    "resources": 2,
+                    "influence": 1,
+                    "trait": "hazardous,industrial",
+                    "specialty": null,
+                    "legendary": false,
+                }
+            ],
+            "anomaly": [],
+            "wormhole": []
+        },
+                         "105": {
+            "type": "blue",
+            "planets": [
+                {
+                    "name": "Tinnes",
+                    "resources": 2,
+                    "influence": 1,
+                    "trait": "hazardous,industrial",
+                    "specialty": "biotic",
+                    "legendary": false,
+                },
+                {
+                    "name": "New Terra",
+                    "resources": 1,
+                    "influence": 1,
+                    "trait": "industrial",
+                    "specialty": "biotic",
+                    "legendary": false,
+                }
+            ],
+            "anomaly": [],
+            "wormhole": []
+        },
+                         "106": {
+            "type": "blue",
+            "planets": [
+                {
+                    "name": "Lazul Rex",
+                    "resources": 2,
+                    "influence": 2,
+                    "trait": "industrial,cultural",
+                    "specialty": null,
+                    "legendary": false,
+                },
+                {
+                    "name": "Cresius",
+                    "resources": 0,
+                    "influence": 1,
+                    "trait": "hazardous",
+                    "specialty": null,
+                    "legendary": false,
+                }
+            ],
+            "anomaly": [],
+            "wormhole": []
+        },
+                         "107": {
+            "type": "blue",
+            "planets": [
+                {
+                    "name": "Hercalor",
+                    "resources": 1,
+                    "influence": 0,
+                    "trait": "industrial",
+                    "specialty": null,
+                    "legendary": false,
+                },
+                {
+                    "name": "Tiamat",
+                    "resources": 1,
+                    "influence": 2,
+                    "trait": "cultural",
+                    "specialty": "cybernetic,cybernetic",
+                    "legendary": false,
+                }
+            ],
+            "anomaly": [],
+            "wormhole": []
+        },
+                         "108": {
+            "type": "blue",
+            "planets": [
+                {
+                    "name": "Capha",
+                    "resources": 3,
+                    "influence": 0,
+                    "trait": "hazardous",
+                    "specialty": null,
+                    "legendary": false,
+                },
+                {
+                    "name": "Kostboth",
+                    "resources": 0,
+                    "influence": 1,
+                    "trait": "cultural",
+                    "specialty": null,
+                    "legendary": false,
+                }
+            ],
+            "anomaly": [],
+            "wormhole": []
+        },
+                         "109": {
+            "type": "blue",
+            "planets": [
+                {
+                    "name": "Bellatrix",
+                    "resources": 1,
+                    "influence": 2,
+                    "trait": "cultural",
+                    "specialty": null,
+                    "legendary": false,
+                },
+                {
+                    "name": "Tsion Station",
+                    "resources": 1,
+                    "influence": 1,
+                    "trait": null,
+                    "specialty": null,
+                    "legendary": false,
+                }
+            ],
+            "anomaly": [],
+            "wormhole": []
+        },
+                         "110": {
+            "type": "blue",
+            "planets": [
+                {
+                    "name": "Luthien VI",
+                    "resources": 3,
+                    "influence": 1,
+                    "trait": "hazardous",
+                    "specialty": null,
+                    "legendary": false,
+                },
+                {
+                    "name": "El'Nath",
+                    "resources": 2,
+                    "influence": 0,
+                    "trait": "hazardous",
+                    "specialty": null,
+                    "legendary": false,
+                },
+                {
+                    "name": "Horizon",
+                    "resources": 1,
+                    "influence": 2,
+                    "trait": "cultural",
+                    "specialty": null,
+                    "legendary": false,
+                }
+            ],
+            "anomaly": [],
+            "wormhole": []
+        }, 
+                         "111": {
+            "type": "blue",
+            "planets": [
+                {
+                    "name": "Tarana",
+                    "resources": 1,
+                    "influence": 2,
+                    "trait": "industrial,cultural",
+                    "specialty": null,
+                    "legendary": false,
+                },
+                {
+                    "name": "Oluz Station",
+                    "resources": 1,
+                    "influence": 1,
+                    "trait": null,
+                    "specialty": null,
+                    "legendary": false,
+                }
+            ],
+            "anomaly": [],
+            "wormhole": []
+        },
+                         "113": {
+            "type": "red",
+            "anomaly": [ANOMALIES.GRAVITY_RIFT],
+            "wormhole": [WORMHOLES.BETA],
+            "planets": [
+            ],
+        },
+                         "114": {
+            "type": "red",
+            "anomaly": [ANOMALIES.NEBULA],
+            "wormhole": [],
+            "planets": [
+            ],
+        },
+                         "115": {
+            "type": "red",
+            "anomaly": [ANOMALIES.ASTEROID_FIELD],
+            "wormhole": [],
+            "planets": [
+                {
+                    "name": "Industrex",
+                    "resources": 2,
+                    "influence": 0,
+                    "trait": "industrial",
+                    "specialty": "warfare",
+                    "legendary": true,
+                    "ability": "You may exhaust this card when you pass to palce 1 ship that matches a unit upgrade technology you own from your reinforcements into a system that contains your ships."
+                }
+            ],
+        },
+                         "116": {
+            "type": "red",
+            "anomaly": [ANOMALIES.NEBULA],
+            "wormhole": [],
+            "planets": [
+                {
+                    "name": "Lemox",
+                    "resources": 0,
+                    "influence": 3,
+                    "trait": "industrial",
+                    "specialty": null,
+                    "legendary": false
+                }
+            ],
+        },
+                         "117": {
+            "type": "red",
+            "anomaly": [ANOMALIES.GRAVITY_RIFT, ANOMALIES.ASTEROID_FIELD],
+            "wormhole": [],
+            "planets": [
+                {
+                    "name": "The Watchtower",
+                    "resources": 1,
+                    "influence": 1,
+                    "trait": null,
+                    "specialty": null,
+                    "legendary": false
+                }
+            ],
         },
 
         "3201": {
@@ -4633,9 +4987,9 @@ const tileData = {
 			"wormhole": [],
 			"anomaly":[],
 			"planets": []
-		}
+		},
     },
-
+    
     "base": [
         "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
         "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21",
@@ -4647,7 +5001,9 @@ const tileData = {
         "52", "53", "54", "55", "56", "57", "58", "59", "60",
         "61", "62", "63", "64", "65", "66", "67", "68", "69", "70",
         "71", "72", "73", "74", "75", "76", "77", "78", "79", "80",
-        "81", "82"
+        "81", "82", "97", "98", "99", "100", "101", "102", "103", "104",
+        "105", "106", "107", "108", "109", "110", "111", "113", "114",
+        "115", "116", "117" 
     ],
     "uncharted": [
         "4253", "4254", "4255", "4256", "4257", "4258", "4259", "4260",
@@ -4669,6 +5025,7 @@ const tileData = {
         'er111', 'er112', 'er113', 'er114', 'er115', 'er116', 'er117', 'er118', 'er119', 'er120',
         'er121', 'er122', 'er123', 'er124', 'er125', 'er126', 'er127', 'er128', 'er129',
     ],
+
     "asyncLanes": [
         'hypspaghet',
         'hyp4squeeze',
@@ -4691,6 +5048,7 @@ const tileData = {
         'hyproundabout3',
         'hyproundabout6'
     ],
+    
 
     // "green": [
     //     1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
